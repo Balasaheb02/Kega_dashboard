@@ -1,0 +1,18 @@
+:root {
+    box-sizing: border-box;
+}
+
+$dark-text:#0d1333;
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: $dark-text;
+}
